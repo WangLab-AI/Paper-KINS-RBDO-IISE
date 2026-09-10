@@ -1,0 +1,122 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.venv/
+venv/
+env/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Jupyter / IPython generated files
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+profile_default/
+ipython_config.py
+
+# MATLAB generated and temporary files (MATLAB .m source remains tracked)
+*.asv
+*.m~
+*.mex*
+*.mlappinstall
+*.prj
+codegen/
+DerivedData/
+
+# Simulink generated files (Simulink .slx/.mdl source remains tracked)
+slprj/
+*.slxc
+*.autosave
+*.slx.r20*
+*_grt_rtw/
+*_ert_rtw/
+*_rsim_rtw/
+*_sfprj/
+sccprj/
+
+# Data and large numerical artifacts
+data/
+datasets/
+*.mat
+*.npy
+*.npz
+*.parquet
+*.feather
+*.arrow
+*.h5
+*.hdf5
+*.tfrecord
+*.tfrecords
+*.pkl
+*.pickle
+*.joblib
+
+# Model weights and checkpoints
+models/
+weights/
+checkpoints/
+artifacts/
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.safetensors
+*.pb
+*.tflite
+
+# Experiment, simulation and tracker outputs
+results/**
+!results/.gitkeep
+outputs/
+runs/
+logs/
+simulation-results/
+sim-results/
+wandb/
+mlruns/
+lightning_logs/
+tensorboard/
+*.log
+
+# Compiled firmware, application and frontend outputs
+*.bin
+*.hex
+*.elf
+*.map
+node_modules/
+.next/
+.nuxt/
+coverage/
+target/
+
+# IDE and OS files
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
+*.tmp
