@@ -1,6 +1,8 @@
-# Paper-CCN-RBDO-IISE
+# Paper-KINS-RBDO-IISE
 
-CCN RBDO IISE 论文代码复现、对照实验和结果管理。
+KINS RBDO IISE 论文代码复现、对照实验和结果管理。
+
+**Repository:** https://github.com/WangLab-AI/Paper-KINS-RBDO-IISE
 
 ## 存储与归档原则
 
@@ -13,7 +15,7 @@ GitHub 只保存代码、脚本、配置和文档。不得上传原始/处理后
 ## 目录结构
 
 ```text
-Paper-CCN-RBDO-IISE/
+Paper-KINS-RBDO-IISE/
 ├── src/              # 核心算法与可复用代码
 ├── experiments/      # 实验入口与实验清单
 ├── configs/          # 参数、场景和随机种子
